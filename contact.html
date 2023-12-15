@@ -1,0 +1,49 @@
+<html>
+
+<head>
+<title>MSWD</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body bgcolor="FFFBF5">
+<h2 align="center">Student Information System</h2>
+
+<nav>
+    <ul>
+        <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;
+        <a href="registration.html">Registration</a>&nbsp;&nbsp;&nbsp;
+        <a href="login.html">Logout</a>&nbsp;&nbsp;&nbsp;
+        <a href="contact.html">Contact Us</a>&nbsp;&nbsp;&nbsp;
+        <a href="https://newerp.kluniversity.in/" target="_blank">ERP</a>&nbsp;&nbsp;&nbsp;
+</nav>
+<br>
+
+<center>
+<form method="post" action="#">
+    <table>
+        <tr>
+            <td><input type="text" name="name" placeholder="Enter Your Full Name" maxlength="30" required/></td>
+        </tr>
+        <tr>
+            <td><input type="email" name="emailid" placeholder="Enter Your Email ID" required/></td>
+        </tr>
+        <tr>
+            <td><input type="text" name="contactno" pattern="[6789][0-9]{9}" placeholder="Provide Your Contact Details" required/>
+                <i style="color: red;">**Must be 10 Digits**</i>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="text" name="subject" placeholder="Enter Subject" maxlength="50" required/></td>
+        </tr>
+        <tr>
+            <td><textarea name="message" placeholder="Enter Your Message" required></textarea></td>
+        </tr>
+        
+        <tr align="center">
+            <td><input type="submit" value="Submit Query" class="button"/></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
